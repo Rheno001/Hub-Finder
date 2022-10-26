@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+#header{
+    background: url(assets/Rectangle\ 2.png) no-repeat;
+    background-position: center;
+    position: absolute;
+    background-image:  linear-gradient( rgb(255, 255, 255),  rgba(37, 133, 177, 0.72)); 
+}
+.accordion-body a{
+    text-decoration: none;
+    color: #229DA0;
+}
+.nav-item a{
+    color: black;
+}
+.nav-item a.active{
+    color: #229DA0;
+}
+.nav-item a:hover{
+    color: #229DA0 ;
+}
+.main-text{
+    color: #fff;
+    line-height: 67px;
+    font-size: 55px;
+    font-weight: 700;
+}
+.main-p{
+    color: #E8E5E5;
+    font-weight: 500;
+}
+.container-fluid button{
+    background:  #229DA0;
+    color: #fff;
+}
+button.accordion-button{
+    color: #73BFC1;
+    background: #fff;
+}
+form .btn{
+    background-color: #229DA0;
+}
