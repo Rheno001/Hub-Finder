@@ -6,8 +6,19 @@
 #header{
     background: url(assets/Rectangle\ 2.png) no-repeat;
     background-position: center;
+    background-size: 100%;
+    position: relative;
+}
+
+.color-overlay{
+    background: linear-gradient(to bottom, #fff, rgba(37, 133, 177, 0.72)) ;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
     position: absolute;
-    background-image:  linear-gradient( rgb(255, 255, 255),  rgba(37, 133, 177, 0.72)); 
+}
+.navbar-toggler-icon{
+      background: #fff;
 }
 .accordion-body a{
     text-decoration: none;
@@ -27,10 +38,12 @@
     line-height: 67px;
     font-size: 55px;
     font-weight: 700;
+    position: relative;
 }
 .main-p{
-    color: #E8E5E5;
+    color: #fff;
     font-weight: 500;
+    position: relative;
 }
 .container-fluid button{
     background:  #229DA0;
@@ -40,6 +53,36 @@ button.accordion-button{
     color: #73BFC1;
     background: #fff;
 }
-form .btn{
+.btn{
     background-color: #229DA0;
+}
+.btn:hover{
+    box-shadow: 10px 10px 5px 0px rgba(177, 177, 177, 0.75);
+}
+.one-1 .fe{
+    border-bottom: 2px dashed #229DA0;
+    color:  #229DA0;
+    padding-right: 130px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.one-1 .btn{
+    background: #229DA0 ;
+    margin-right: 80px;
+    text-decoration: none;
+}
+.one-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card{
+    border: none;
+    box-shadow: 8px 8px 5px 0px rgba(177, 177, 177, 0.75)
+}
+.card-body .btn{
+    background: #C7E4E4;
 }
