@@ -117,6 +117,11 @@ button.accordion-button{
     color: #fff;
     
 }
+#benefit{
+    background: url(assets/background.png) no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
 @media (max-width: 415px){
     #header{
         display: flex;
