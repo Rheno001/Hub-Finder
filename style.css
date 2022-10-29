@@ -122,6 +122,62 @@ button.accordion-button{
     background-position: center;
     background-size: 100%;
 }
+#benefit .container-sm{
+    display: flex;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+.image{
+    margin-right: 50px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.right{
+    margin-top: 130px;
+    margin-left: 100px;
+}
+.ben{
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.69);
+    border-radius: 10px;
+    width: 556px;
+    margin-bottom: 30px;
+}
+.ben h2{
+    font-size: 40px;
+    color: #229DA0;
+    font-weight: 600;
+}
+.ben p{
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: 450;
+    line-height: 23px;
+    color:  #605F5D;
+}
+.vectors{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.vectors img,.a,.b{
+    padding: 10px 30px 10px 30px;
+    border: 2px  #2585B1 solid;
+    border-radius: 8px;
+}
+.vectors .d{
+    width: 110px;
+    height: 70px;
+    margin-left: 10px;
+}
+.vectors .c{
+    width: 110px;
+    height: 70px;
+}
+.vectors p{
+    color: #2585B1;
+    margin-left: 15px;
+}
 @media (max-width: 415px){
     #header{
         display: flex;
