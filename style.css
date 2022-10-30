@@ -178,6 +178,72 @@ button.accordion-button{
     color: #2585B1;
     margin-left: 15px;
 }
+#footer{
+    background: url(assets/Rectangle\ 31.png);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer .container-sm{
+    display: flex;
+    justify-content: center;
+}
+#footer .top{
+    width: 660px;
+}
+.quote{
+    display: flex;
+    margin-top: 100px;
+    
+}
+.quote img{
+    padding-right: 80px ;
+    margin-right: 15px;
+    margin-top: 50px;
+}
+.profile-pic{
+    border: 3px solid #73BFC1;
+    border-radius: 200px;
+}
+.testimonials .butt-head{
+    position: relative;
+    margin-right: 70px;
+}
+.right-rec{
+    margin-bottom: 40px;
+}
+.client{
+    margin-top: -340px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px 40px 25px 25px;
+    margin-bottom: 100px;
+}
+.testimonials{
+    align-items: center;
+    justify-items: center;
+}
+.butt-head{
+    color: #808080;
+    align-items: center;
+}
+.name{
+    margin-top: 27px;
+    margin-left: 10px
+}
+.profession{
+    color: #808080;
+}
+.name .client-name{
+    color: #229DA0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0;
+}
+.comment{
+    margin-top: 10px;
+}
 @media (max-width: 415px){
     #header{
         display: flex;
