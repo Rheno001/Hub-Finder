@@ -1,7 +1,8 @@
 # Hub-Finder
  Website to discover workspaces near you
  
-![hub-pic](https://user-images.githubusercontent.com/88987852/199012858-3051f81e-9487-4e46-8e71-21461b925e97.png)
+![hub-pic](https://user-images.githubusercontent.com/88987852/199013930-bf8df7a1-db6c-44cd-9a9c-792ed6155ac3.png)
+
 
 
 Live site: https://rheno001.github.io/Hub-Finder/
