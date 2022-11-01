@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:regular,italic,500,500italic,700,700italic);
 *{
     margin: 0;
     padding: 0;
@@ -14,10 +18,10 @@ html{
 }
 
 .color-overlay{
-    background: linear-gradient(to bottom, #fff, rgba(37, 133, 177, 0.72)) ;
+    background: linear-gradient(to bottom,#fff, rgba(37, 133, 177, 0.72), rgba(37, 133, 177, 0.72)) ;
     width: 100%;
     height: 100%;
-    opacity: 0.9;
+    opacity: 1;
     position: absolute;
 }
 .accordion-body a{
@@ -26,6 +30,7 @@ html{
 }
 .nav-item a{
     color: black;
+    font-family: 'Inter';
 }
 .nav-item a.active{
     color: #229DA0;
@@ -39,11 +44,13 @@ html{
     font-size: 55px;
     font-weight: 700;
     position: relative;
+    font-family: Montserrat;
 }
 .main-p{
     color: #fff;
     font-weight: 500;
     position: relative;
+    font-family: Montserrat;
 }
 .container-fluid button{
     background:  #229DA0;
@@ -59,10 +66,12 @@ button.accordion-button{
 .btn:hover{
     box-shadow: 10px 10px 5px 0px rgba(177, 177, 177, 0.75);
 }
-.one-1 .fe{
+.fe{
     border-bottom: 2px dashed #229DA0;
     color:  #229DA0;
     padding-right: 130px;
+    font-family: Montserrat;
+    font-weight: 600;
 }
 .one{
     display: flex;
@@ -78,6 +87,12 @@ button.accordion-button{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+.one-2 p{
+    font-family: Montserrat;
+}
+.two-2 p{
+    font-family: Montserrat;
 }
 .card{
     border: none;
@@ -147,13 +162,15 @@ button.accordion-button{
     font-size: 40px;
     color: #229DA0;
     font-weight: 600;
+    font-family: Montserrat;
 }
 .ben p{
     margin-top: 10px;
     font-size: 19px;
-    font-weight: 450;
+    font-weight: 500;
     line-height: 23px;
     color:  #605F5D;
+    font-family: Montserrat;
 }
 .vectors{
     display: flex;
@@ -184,6 +201,7 @@ button.accordion-button{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Manrope;
 }
 .top{
     margin-left: 270px;
@@ -219,6 +237,14 @@ button.accordion-button{
     padding: 25px 40px 25px 25px;
     margin-bottom: 100px;
 }
+.client-name{
+    font-weight: 800;
+}
+.profession{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
 .testimonials{
     align-items: center;
     justify-items: center;
@@ -227,7 +253,8 @@ button.accordion-button{
 .butt-head{
     color: #808080;
     align-items: center;
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: 700;
 }
 .butt-head:hover{
     color: #229DA0;
@@ -247,6 +274,8 @@ button.accordion-button{
 }
 .comment{
     margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
 }
 .bottom .container-sm{
     background: #229DA0;
@@ -261,6 +290,7 @@ button.accordion-button{
     font-weight: 400;
     color: #fff;
     margin-right: 80px;
+    font-family: Montserrat;
 }
 .sub{
     background: #fff;
@@ -268,7 +298,7 @@ button.accordion-button{
     width: 500px;
 }
 .sub .btn{
-    margin-left: 120px;
+    margin-left: 90px;
     background: #64A8C7;
     height: 52px;
     border-radius: 4px;
@@ -277,12 +307,14 @@ button.accordion-button{
     line-height: 20px;
     font-weight: 400;
     font-size: 16px;
+    font-family: Montserrat;
 }
 .sub input{
     border: none;
     font-weight: 400;
     color:  #2B3D51;
     margin-left: 10px;
+    font-family: Montserrat;
 }
 
 nav{
@@ -291,7 +323,8 @@ nav{
     align-items: center;
     margin-top: 50px;
     padding: 20px 0 30px 0;
-    border-bottom: 1px solid #229DA0;
+    border-bottom: 1px solid #8b8b92;
+
 }
 .bottom-nav ul{
     display: flex;
@@ -307,6 +340,7 @@ nav{
     color:  #229DA0;
     font-size: 16px;
     font-weight: 500;
+    font-family: DM sans;
 }
 .social li{
     display: flex;
@@ -349,6 +383,7 @@ nav{
     justify-content: flex-start;
     align-items: center;
     color: #229DA0;
+    font-family: DM sans;
 }
 .mid{
     display: flex;
@@ -364,6 +399,7 @@ nav{
     color: #229DA0;
     text-decoration: none;
     font-weight: 500;
+    font-family: DM sans;
 }
 @media (max-width: 415px){
     #header{
