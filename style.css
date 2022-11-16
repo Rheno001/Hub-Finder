@@ -58,16 +58,13 @@ html{
     font-family: Montserrat;
     margin-top: 50px;
 }
-.container-fluid button{
-    background:  #229DA0;
-    color: #fff;
-}
 button.accordion-button{
     color: #73BFC1;
     background: #fff;
 }
 .btn{
     background-color: #229DA0;
+    margin-right: 50px;
 }
 .btn:hover{
     box-shadow: 10px 10px 5px 0px rgba(177, 177, 177, 0.75);
@@ -86,7 +83,7 @@ button.accordion-button{
 }
 .one-1 .btn{
     background: #229DA0 ;
-    margin-right: 80px;
+    margin-right:n 80px;
     text-decoration: none;
 }
 .one-2{
@@ -407,223 +404,138 @@ nav{
     font-weight: 500;
     font-family: DM sans;
 }
-
-@media(max-width: 850px){
+@media (max-width:1200px){
+    .container-fluid img{
+        max-width: 160px;
+    }
     #header{
-        background-size: cover;
-        padding: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     .text{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        text-align: center;
-    }
-    .p-butt{
-        display: flex;
-        flex-direction: column;
+        justify-content: center;
     }
     .main-text{
-        font-size: 70px;
-        line-height: 80px;
-    }
-    .main-p{
-        font-size: 20px;
-    }
-    .p-butt .navbar{
-        height: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 650px;
-    }
-    .text .navbar .btn{
-        padding: 10px;
-        display: flex;
-    }
-    .text .navbar .accordion-button{
-        display: flex;
-        padding: 5px;
-    }
-    #details .butt .btn{
+        font-size: 30px;
         text-align: center;
-    }
-    .jbutt img{
-        width: 170px;
-        height: auto;
-    }
-    .jbutt{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
         margin: 0;
     }
-    .jbutt a{
-        width: 110px;
-        align-items: center;
-        margin-right: 80px;
-        display: flex;
-        justify-content: center;
-    }
-    #benefit .container-sm{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        height: 1000px;
-        
-    }
-    #benefit .container-sm .image img{
-        height: 320px;
-        width: 280px;
-        margin-left: 110px;
-        margin-right: 0;
-    }
-    .right{
-        margin-right: 30px;
-    }
-    .ben{
-        width: 300px;
-        margin-right: 80px;
-        margin-top: 30px;
-    }
-    .ben h2{
-        font-size: 25px
-    }
-    .ben p{
-        font-size: 15px;
-    }
-    .vectors{
-        display: flex;
-        flex-direction: column;
-    }
-    #footer .container-sm{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .top{
-        margin-right: 260px;
-    }
-    .bottom .container-sm .col{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .sub-text{
-        margin-left: 100px;
-    }
-    .bottom-nav{
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-    }
-    .bottom-nav ul{
-        padding: 0;
-    }
-    .bottom-nav ul li{
-        padding: 10px;
-    }
-    .bottom .row{
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        width: 800px;
-    }
-    .mid img{
-        height: 50px;
-        width: 150px;
-    }
-    .end a{
-        display: flex;
-        padding: 0 10px 0 10px;
-        margin-left: 5px;
-        width: 120px;
-    }
-}
-/*new iphone*/
-@media (width:414px){
-    #header{
-        background-size: cover;
-        padding: 0 auto;
-    }
-    #header .container-fluid img{
-        width: 170px;
-        padding-right: 20px;
-        height: 50px;
-    }
-    .text .main-text{
-        font-size: 40px;
-        line-height: 50px;
-    }
-    .text .main-p{
-        font-size: 14px;
-    }
-    .navbar .container-fluid .sp-loc{
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-left: 130px;
+    .main-p{
+        text-align: center;
     }
     .bar{
-        background: none;
-        width: 374px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sp-loc{
+        display: flex;
+        flex-direction: column;
+    }
+    .accordion{
+        height: 100px;
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .accordion-item{
+        float: left;
+    }
+    #details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .one-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .fe{
+        padding: 0;
         border: none;
-        margin-right: 18px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .bar .container-fluid .btn{
-        width: 20px;
-        font-size: 16px;
-        display: flex;
-        justify-content: center;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .bar .container-fluid{
-        display: flex;
-        flex-direction: column;
-    }
-    #details .one-1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
+        margin-right: 60px;
     }
     .one-2{
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
-    .one-2 p{
-        margin-top: 10px;
+    .ps-5{
+        font-size: 16px;
+        text-align: center;
+        margin-right: 60px;
     }
-    .one-2 .cards{
+    .cards{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin-left: 30px;
     }
     .card{
-        margin-top: 15px;
+        margin: 10px;
     }
-    .two-2 .col{
+    .two{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .two-1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .two-1 .fe{
+        text-align: center;
+        padding: 0;
+        margin-right: 60px;
+        border: none;
+    }
+    .two-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .jbutt{
+        width: 200px;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
     }
     .jbutt img{
-        width: 250px;
+        width: 210px;
     }
-}
-/*smaller phones*/
-@media (width:375px){
-
+    .jbutt a{
+        margin: 0;
+        width: 180px;
+        margin-top: -30px;
+    }
+    .mid img{
+        max-width: 100px;
+    }
 }
