@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -14,6 +15,10 @@ html{
     background: url(assets/Rectangle\ 2.png) no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+.bar{
+    background: #fff;
     position: relative;
 }
 
@@ -51,6 +56,7 @@ html{
     font-weight: 500;
     position: relative;
     font-family: Montserrat;
+    margin-top: 50px;
 }
 .container-fluid button{
     background:  #229DA0;
@@ -545,7 +551,77 @@ nav{
         background-size: cover;
         padding: 0 auto;
     }
-
+    #header .container-fluid img{
+        width: 170px;
+        padding-right: 20px;
+        height: 50px;
+    }
+    .text .main-text{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .text .main-p{
+        font-size: 14px;
+    }
+    .navbar .container-fluid .sp-loc{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 130px;
+    }
+    .bar{
+        background: none;
+        width: 374px;
+        border: none;
+        margin-right: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .bar .container-fluid .btn{
+        width: 20px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .bar .container-fluid{
+        display: flex;
+        flex-direction: column;
+    }
+    #details .one-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .one-2{
+        display: flex;
+        justify-content: center;
+    }
+    .one-2 p{
+        margin-top: 10px;
+    }
+    .one-2 .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 30px;
+    }
+    .card{
+        margin-top: 15px;
+    }
+    .two-2 .col{
+        display: flex;
+        flex-direction: column;
+    }
+    .jbutt img{
+        width: 250px;
+    }
 }
 /*smaller phones*/
 @media (width:375px){
